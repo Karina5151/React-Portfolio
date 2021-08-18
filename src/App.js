@@ -1,12 +1,14 @@
 import React from "react";
-import Form from "./components/Form";
-import Header from './components/Header';
+import HeaderNav from './components/HeaderNav';
+import Footer from './components/Footer';
+import Body from './components/body';
 
 function App() {
   return (
     <>
-      <Form />
-      <Header />
+      <HeaderNav />
+      <Body />
+      <Footer />
     </>
     );
 }
