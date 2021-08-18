@@ -1,11 +1,7 @@
 import React from "react";
-// import Body from './components/body';
-// import Bio from './components/pages/Bio';
-// import Portfolio from './components/pages/Portfolio';
-// import Resume from './components/pages/Resume';
-// import Contact from './components/pages/Contact';
 
-export default function HeaderNav() {
+
+export default function HeaderNav({ currentPage, handlePageChange }) {
     return (
         <header className="header">
             <h1>Karina Clausen</h1>

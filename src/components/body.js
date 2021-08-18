@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import HeaderNav from './components/HeaderNav';
-import Bio from './components/pages/Bio';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
-import Contact from './components/pages/Contact';
-// import Footer from './components/Footer';
+import HeaderNav from './HeaderNav';
+import Bio from './pages/Bio';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 export default function Body() {
     // make default page the Bio page
@@ -31,12 +30,12 @@ export default function Body() {
     return (
         <>
             <div>
-                <HeaderNav currentPage={currentPage} handlePageChange={handlePageChange} />
+                <HeaderNav 
+                currentPage={currentPage} 
+                handlePageChange={handlePageChange} 
+                />
                 {renderPage()}
             </div>
-            {/* <div>
-                <Footer />
-            </div> */}
         </>
-    )
+    );
 }
