@@ -1,21 +1,21 @@
-
 .header {
     text-align: center;
-    background-image: url("../../../assets/images/textured.jpg");
+    background-color: rgba(10, 10, 10, 0.938);
     margin-bottom: 3%;
 }
 
 .name-header {
     padding: 30px;
-    background-color: black;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
+    /* border-bottom: solid black 5px; */
 }
 
 nav {
     text-align:right;
-    background-color: rgb(67, 26, 163);
+    background-color: rgba(26, 25, 25, 0.938);
     color: white;
+    /* border-bottom: solid black 5px; */
 }
 
 .nav-list a {
@@ -29,3 +29,6 @@ nav {
 .nav-list a:hover {
     color: rgb(185, 145, 248)
 }
+
+
+

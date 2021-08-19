@@ -9,17 +9,14 @@ export default function Bio() {
 
                 {/* Image Card 1 */}
                 <div className="card" id="img-card">
-                    <img className="headshot" src={landscapeImg} height="300" width="200" alt="Landscape Pic" />
-                    <div className="card-body">
-                        <p className="card-text">
-                            Always keep learning!
-                        </p>
-                    </div>
+                    <img className="landscape-img" src={landscapeImg} height="300" width="200" alt="Landscape Pic" />
+                    {/* <div className="card-body">
+                    </div> */}
                 </div>
 
                 {/* Bio Card */}
                 <div className="card">
-                    <h3 className="card-header">Get to know me</h3>
+                    <h3 className="card-header bg-dark text-white d-flex justify-content-center">Get to know me</h3>
                     <div className="card-body">
 
                         <h4 className="card-title">Education</h4>
@@ -34,12 +31,9 @@ export default function Bio() {
 
                 {/* Image Card 2 */}
                 <div className="card" id="img-card">
-                    <img className="headshot" src={headshotImg} height="300" width="200" alt="Headshot Pic" />
-                    <div className="card-body">
-                        <p className="card-text">
-                            Always keep learning!
-                        </p>
-                    </div>
+                    <img className="headshot-img" src={headshotImg} height="300" width="200" alt="Headshot Pic" />
+                    {/* <div className="card-body">
+                    </div> */}
                 </div>
             </div>
         </div>

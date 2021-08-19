@@ -1,6 +1,10 @@
+import React from "react";
+import './style.css';
+import backgroundImg from '../../assets/images/textured.jpg';
+
 export default function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" style={{ backgroundImage: `url(${backgroundImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>
             <div className="footer-container text-center">
                 <a href="https://github.com/Karina5151" target="_blank" rel="noreferrer">
                     My Github Page

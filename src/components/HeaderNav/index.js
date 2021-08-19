@@ -1,12 +1,12 @@
 import React from "react";
 import './style.css';
-
+import backgroundImg from '../../assets/images/textured.jpg';
 
 
 export default function HeaderNav({ currentPage, handlePageChange }) {
     return (
-        <header className="header">
-            <h1 className="name-header" >Karina Clausen</h1>
+        <header className="header" > 
+            <h1 className="name-header" style={{ backgroundImage: `url(${backgroundImg})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center'}}>Karina Clausen</h1>
 
             <nav>
                 <ul className="nav nav-list justify-content-end">

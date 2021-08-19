@@ -4,10 +4,15 @@
     margin-right: 5%;
     margin-bottom: 80px;
     margin-top: -20px;
+    
 }
 
 .card {
     margin: 30px; 
+}
+
+.card-header {
+    background-color: rgb(211, 186, 240);
 }
 
 .card-title {
@@ -18,26 +23,25 @@
     color: white
 }
 
+/* .card-group {
+
+} */
+
 #img-card  {
-    background-color: black;
-    color: white
+    background-color:rgb(67, 26, 163);
+    color: white;
 }
 
-.avatar-img {
+.landscape-img {
     width: 100%;
-    object-fit: cover;
+  height: 650px;
+  padding: 30px;
+  
 }
 
-#hobbies-header, #interests-header {
-    background-color: black;
-    color: white
+.headshot-img {
+    width: 100%;
+    height: 650px;
+    padding: 30px;
 }
 
-#hobbies-body {
-    font-size: 20px
-}
-
-#even-hobbies {
-    background-color: rgb(67, 26, 163);
-    color: white
-}
