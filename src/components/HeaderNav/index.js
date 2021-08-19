@@ -1,13 +1,15 @@
 import React from "react";
+import './style.css';
+
 
 
 export default function HeaderNav({ currentPage, handlePageChange }) {
     return (
         <header className="header">
-            <h1>Karina Clausen</h1>
+            <h1 className="name-header" >Karina Clausen</h1>
 
             <nav>
-                <ul className="nav nav-list justify-content-center">
+                <ul className="nav nav-list justify-content-end">
 
                     <li className="nav-item">
                         <a href="#bio"

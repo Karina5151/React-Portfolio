@@ -1,0 +1,43 @@
+.bio-container {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 80px;
+    margin-top: -20px;
+}
+
+.card {
+    margin: 30px; 
+}
+
+.card-title {
+    color:rgb(67, 26, 163);
+}
+
+#status-title {
+    color: white
+}
+
+#img-card  {
+    background-color: black;
+    color: white
+}
+
+.avatar-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#hobbies-header, #interests-header {
+    background-color: black;
+    color: white
+}
+
+#hobbies-body {
+    font-size: 20px
+}
+
+#even-hobbies {
+    background-color: rgb(67, 26, 163);
+    color: white
+}

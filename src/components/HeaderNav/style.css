@@ -1,20 +1,31 @@
-nav {
+
+.header {
     text-align: center;
+    background-image: url("../../../assets/images/textured.jpg");
+    margin-bottom: 3%;
+}
+
+.name-header {
+    padding: 30px;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}
+
+nav {
+    text-align:right;
     background-color: rgb(67, 26, 163);
     color: white;
 }
 
 .nav-list a {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .nav-list a:hover {
-    border-radius: 50px;
-    box-shadow: 0px 0px 3px 0px white;
-    color: white
+    color: rgb(185, 145, 248)
 }

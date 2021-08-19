@@ -1,3 +1,7 @@
+#root {
+    background-color: rgb(250, 249, 252);
+}
+
 .apps {
     display:flex;
     flex-direction: row;
@@ -10,7 +14,7 @@
 
 .apps div {
     margin: 2%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .apps a {
@@ -27,9 +31,13 @@
     color: rgb(67, 26, 163);
     filter: saturate(150%);
     
+    
 }
 
 .apps img {
     border-radius: 20px;
+    border:1px solid rgb(67, 26, 163);
 }
+
+
 
