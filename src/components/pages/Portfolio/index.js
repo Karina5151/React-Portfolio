@@ -1,4 +1,5 @@
 import './style.css';
+
 import semanticImg from "../../../assets/images/horiseon-final-page.png";
 import passwordGenImg from "../../../assets/images/password-generator-mock-up.png";
 import codeQuizImg from "../../../assets/images/code_quiz-screenshot.png";
@@ -17,7 +18,7 @@ import budgetImg from "../../../assets/images/budget-app.png";
 export default function Portfolio() {
     return (
         <>
-            <section className="apps justify-content-center">
+            <section className="projects justify-content-center">
                 {/* Semantic Tags */}
                 <div>
                     <div><img src={semanticImg} width="270" height="235" alt="Semantic Tags" /></div>

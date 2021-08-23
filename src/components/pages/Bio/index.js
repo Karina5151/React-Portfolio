@@ -1,4 +1,5 @@
 import './style.css';
+
 import landscapeImg from "../../../assets/images/landscape.jpg";
 import headshotImg from "../../../assets/images/headshot.jpg";
 
