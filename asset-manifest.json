@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.10f99006.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.5ad82c0c.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.5ad82c0c.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.fe9575bd.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.fe9575bd.js.map",
+    "static/css/2.818011ed.chunk.css": "/React-Portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.65a5cc06.chunk.js": "/React-Portfolio/static/js/2.65a5cc06.chunk.js",
+    "static/js/2.65a5cc06.chunk.js.map": "/React-Portfolio/static/js/2.65a5cc06.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/React-Portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.10f99006.chunk.css.map": "/React-Portfolio/static/css/main.10f99006.chunk.css.map",
+    "static/js/2.65a5cc06.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.65a5cc06.chunk.js.LICENSE.txt",
+    "static/media/README_screenshot.6413435b.png": "/React-Portfolio/static/media/README_screenshot.6413435b.png",
+    "static/media/budget-app.5f566f6b.png": "/React-Portfolio/static/media/budget-app.5f566f6b.png",
+    "static/media/code_quiz-screenshot.8ac377a9.png": "/React-Portfolio/static/media/code_quiz-screenshot.8ac377a9.png",
+    "static/media/e-commerce.91aac124.png": "/React-Portfolio/static/media/e-commerce.91aac124.png",
+    "static/media/employee-tracker_pic.5c0fcffe.png": "/React-Portfolio/static/media/employee-tracker_pic.5c0fcffe.png",
+    "static/media/headshot.3e0732be.jpg": "/React-Portfolio/static/media/headshot.3e0732be.jpg",
+    "static/media/horiseon-final-page.3a04c5be.png": "/React-Portfolio/static/media/horiseon-final-page.3a04c5be.png",
+    "static/media/landings_page_screenshot.dbf014ab.png": "/React-Portfolio/static/media/landings_page_screenshot.dbf014ab.png",
+    "static/media/landscape.79b5a5a9.jpg": "/React-Portfolio/static/media/landscape.79b5a5a9.jpg",
+    "static/media/note-page.44a02e91.png": "/React-Portfolio/static/media/note-page.44a02e91.png",
+    "static/media/password-generator-mock-up.8deb6507.png": "/React-Portfolio/static/media/password-generator-mock-up.8deb6507.png",
+    "static/media/screenshot.0ccb6efc.jpg": "/React-Portfolio/static/media/screenshot.0ccb6efc.jpg",
+    "static/media/textured.1538e967.jpg": "/React-Portfolio/static/media/textured.1538e967.jpg",
+    "static/media/weather-dashboard.60b29bab.png": "/React-Portfolio/static/media/weather-dashboard.60b29bab.png",
+    "static/media/web_app_html.84951f6e.png": "/React-Portfolio/static/media/web_app_html.84951f6e.png",
+    "static/media/work-day-scheduler_screenshot.d948874d.png": "/React-Portfolio/static/media/work-day-scheduler_screenshot.d948874d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe9575bd.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.65a5cc06.chunk.js",
+    "static/css/main.10f99006.chunk.css",
+    "static/js/main.5ad82c0c.chunk.js"
+  ]
+}
