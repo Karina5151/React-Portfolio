@@ -79,7 +79,7 @@ export default function Portfolio() {
 
                     <p>Command-line App - no site</p>
 
-                    <p><a href="https://github.com/tedheikkila/readme-generator" target="_blank" rel="noreferrer">Readme Generator Repo</a></p>
+                    <p><a href="https://github.com/Karina5151/README-Generator" target="_blank" rel="noreferrer">Readme Generator Repo</a></p>
                 </div>
 
                 {/* Team Profile Generator */}
