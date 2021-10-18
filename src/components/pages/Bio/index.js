@@ -10,7 +10,7 @@ export default function Bio() {
 
                 {/* Image Card 1 */}
                 <div className="card" id="img-card">
-                    <img className="landscape-img" src={landscapeImg} height="300" width="200" alt="Landscape Pic" />
+                    <img className="landscape-img" src={landscapeImg} alt="Landscape Pic" />
                     {/* <div className="card-body">
                     </div> */}
                 </div>
@@ -26,13 +26,17 @@ export default function Bio() {
 
                         <h4 className="card-title">Bio</h4>
                         <p className="card-text">I am from the Twin Cities, MN</p>
+
+                        <h4 className="card-title">Objective</h4>
+                        <p className="card-text">Full-Stack Web Developer leveraging a background in Communication Studies to build applications for an intuitive and impactful user experience. Passionate problem-solver with a life-long dedication to learning. Known for creativity, attention to detail, and proficient collaboration skills. Looking to join forces with a forward-thinking company for mutual growth and to become a valuable asset.
+</p>
                         
                     </div>
                 </div>
 
                 {/* Image Card 2 */}
                 <div className="card" id="img-card">
-                    <img className="headshot-img" src={headshotImg} height="300" width="200" alt="Headshot Pic" />
+                    <img className="headshot-img" src={headshotImg} alt="Headshot Pic" />
                     {/* <div className="card-body">
                     </div> */}
                 </div>

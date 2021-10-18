@@ -1,10 +1,8 @@
 import './style.css';
 
-
 import resumeImg from "../../../assets/images/Resume-screenshot.png";
 import linkedInImg from "../../../assets/images/linkedIn-screenshot.png";
 import githubImg from "../../../assets/images/github-screenshot.png";
-
 
 export default function Resume() {
     return (
@@ -14,7 +12,7 @@ export default function Resume() {
             <div className="skillContainer card-group align-items-stretch">
 
                 <div className="card">
-                    <h4 className="card-header bg-dark text-white d-flex justify-content-center">Browser Based Technologies:</h4>
+                    {/* <h4 className="card-header bg-dark text-white d-flex justify-content-center">Attained Skills:</h4> */}
                     <div className="card-body">
 
                         <li className="skill"><a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noreferrer">HTML5</a></li>
@@ -23,43 +21,14 @@ export default function Resume() {
                         <li className="skill"><a href="https://jquery.com/" target="_blank" rel="noreferrer">jQuery</a></li>
                         <li className="skill"><a href="https://www.w3schools.com/html/html5_webstorage.asp" target="_blank" rel="noreferrer">Local Storage</a></li>
                         <li className="skill"><a href="https://reactjs.org/" target="_blank" rel="noreferrer">React.js</a></li>
-                    </div>
-                </div>
-
-
-                <div className="card">
-                    <h4 className="card-header bg-dark text-white d-flex justify-content-center">API Interaction:</h4>
-                    <div className="card-body">
-
                         <li className="skill"><a href="https://www.w3schools.com/js/js_api_intro.asp" target="_blank" rel="noreferrer">API</a></li>
                         <li className="skill"><a href="https://www.w3schools.com/js/js_json.asp" target="_blank" rel="noreferrer">JSON</a></li>
                         <li className="skill"><a href="https://www.w3schools.com/js/js_ajax_intro.asp" target="_blank" rel="noreferrer">AJAX</a></li>
-                    </div>
-                </div>
-
-                <div className="card">
-                    <h4 className="card-header bg-dark text-white d-flex justify-content-center">Databases:</h4>
-                    <div className="card-body">
-
                         <li className="skill"><a href="https://www.mysql.com/" target="_blank" rel="noreferrer">MySQL</a></li>
                         <li className="skill"><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">MongoDB</a></li>
-                    </div>
-                </div>
-
-                <div className="card">
-                    <h4 className="card-header bg-dark text-white d-flex justify-content-center">Deployment/Command-Line Fundamentals:</h4>
-                    <div className="card-body">
-
                         <li className="skill"><a href="https://www.heroku.com/what" target="_blank" rel="noreferrer">Heroku</a></li>
                         <li className="skill"><a href="https://git-scm.com/" target="_blank" rel="noreferrer">Git</a></li>
                         <li className="skill"><a href="https://pages.github.com/" target="_blank" rel="noreferrer">Github Pages</a></li>
-                    </div>
-                </div>
-
-                <div className="card">
-                    <h4 className="card-header bg-dark text-white d-flex justify-content-center">Server Side Development:</h4>
-                    <div className="card-body">
-
                         <li className="skill"><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">Node.js</a></li>
                         <li className="skill"><a href="https://expressjs.com/" target="_blank" rel="noreferrer">Express</a></li>
                         <li className="skill"><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps" target="_blank" rel="noreferrer">PWAs</a></li>

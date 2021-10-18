@@ -3,8 +3,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 80px;
-    margin-top: -20px;
-    
+    margin-top: -20px;  
 }
 
 .card {
@@ -23,25 +22,23 @@
     color: white
 }
 
-/* .card-group {
-
-} */
-
-#img-card  {
-    background-color:rgb(67, 26, 163);
-    color: white;
+#img-card #info-card {
+    width: 100px;
+    height: 200px;
 }
 
 .landscape-img {
-    width: 100%;
-    height: auto;
-  padding: 30px;
-  
+    max-width: 100%;
+    object-fit: contain;
+    padding: 30px;
+    background-color:rgb(67, 26, 163);
 }
 
 .headshot-img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    object-fit: contain;
     padding: 30px;
+    background-color:rgb(67, 26, 163);
 }
 
