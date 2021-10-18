@@ -3,10 +3,9 @@ import './style.css';
 
 import resumeImg from "../../../assets/images/Resume-screenshot.png";
 import linkedInImg from "../../../assets/images/linkedIn-screenshot.png";
-import githubImg from "../../../assets/images/";
+import githubImg from "../../../assets/images/github-screenshot.png";
 
 
-linkedIn-screenshot.png
 export default function Resume() {
     return (
         <div className="resume col-12-lg col-6-md col-3-sm text-center">
