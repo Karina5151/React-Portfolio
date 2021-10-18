@@ -1,0 +1,40 @@
+/* #root {
+    background-color: rgb(250, 249, 252);
+} */
+
+.profLinks {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.profLinks div {
+    margin: 2%;
+    /* margin-bottom: 5%; */
+}
+
+.profLinks a {
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.profLinks p {
+    margin-top: 15px;
+}
+
+.profLinks a:hover {
+    color: rgb(67, 26, 163);
+    filter: saturate(150%);
+    
+    
+}
+
+.profLinks img {
+    border-radius: 20px;
+    border:1px solid rgb(67, 26, 163);
+}

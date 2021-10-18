@@ -1,3 +1,12 @@
+import './style.css';
+
+
+import resumeImg from "../../../assets/images/Resume-screenshot.png";
+import linkedInImg from "../../../assets/images/linkedIn-screenshot.png";
+import githubImg from "../../../assets/images/";
+
+
+linkedIn-screenshot.png
 export default function Resume() {
     return (
         <div className="resume col-12-lg col-6-md col-3-sm text-center">
@@ -62,8 +71,38 @@ export default function Resume() {
 
 
             <br></br>
-            <a href="https://docs.google.com/document/d/1Ph2WH9L_wcTSq_TiYVCkbBFgtGF_jH9b/edit?usp=sharing&ouid=114273495642259868542&rtpof=true&sd=true" target="_blank" rel="noreferrer">Link to Resume on Google Drive</a>
-        </div>
+          
+            <section className="profLinks justify-content-center">
+                {/* Resume Link */}
+                <div>
+                    <div><img src={resumeImg} width="270" height="235" alt="Resume" /></div>
 
+                    <p><a href="https://docs.google.com/document/d/1Ph2WH9L_wcTSq_TiYVCkbBFgtGF_jH9b/edit?usp=sharing&ouid=114273495642259868542&rtpof=true&sd=true" target="_blank" rel="noreferrer">Professional Resume</a></p>
+
+                </div>
+
+                {/* LinkedIn Link */}
+                <div>
+                    <div><img src={linkedInImg} width="270" height="235" alt="LinkedIn" /></div>
+
+                    <p><a href="https://www.linkedin.com/in/karina-clausen-5049aaa9/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+
+                </div>
+                
+
+                {/* Github Link */}
+                <div>
+                    <div><img src={githubImg} width="270" height="235" alt="Github" /></div>
+
+                    <p><a href="https://github.com/Karina5151" target="_blank" rel="noreferrer">Github</a></p>
+
+                </div>
+            </section>
+
+
+
+        </div>
     );
 }
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
