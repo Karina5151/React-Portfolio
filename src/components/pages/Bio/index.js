@@ -16,7 +16,7 @@ export default function Bio() {
                 </div>
 
                 {/* Bio Card */}
-                <div className="card">
+                <div className="card" id="info-card">
                     <h3 className="card-header bg-dark text-white d-flex justify-content-center">Get to know me</h3>
                     <div className="card-body">
 
