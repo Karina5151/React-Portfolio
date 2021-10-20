@@ -17,8 +17,8 @@ export default function Bio() {
                     <div style={{marginTop: "1rem"}}>
 
                         <h4 className="card-title">Education</h4>
-                        <p className="card-text">BA in Communication Studies from UW - River Falls</p>
-                        <p className="card-text">UMN Full Stack Coding Certification</p>
+                        <p className="card-text">Bachelor of Science in Communication Studies - University of Wisconsin - River Falls</p>
+                        <p className="card-text">Full Stack Web Development Certification - University of MN</p>
 
                         <h4 className="card-title">Bio</h4>
                         <p className="card-text">I am from the Twin Cities, MN</p>

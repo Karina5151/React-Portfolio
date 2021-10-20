@@ -1,7 +1,36 @@
 /* Styling for Skill Icons */
 
+.skills {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right:5%;
+}
 
 
+.skill {
+    margin: 2%;
+    list-style-type: none;
+}
+
+.skill a {
+    color:black;
+    font-size:15px;
+    text-decoration: none;
+}
+
+.skill a:hover {
+    color: rgb(67, 26, 163);
+    filter: saturate(150%);
+}
+
+.skill a p:hover {
+    color: rgb(67, 26, 163);
+    filter: saturate(150%);
+}
 
 
 /* Styling for Links */
