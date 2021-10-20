@@ -1,19 +1,22 @@
 /* Styling for Skill Icons */
 
 .skills {
-    display:flex;
+    display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     text-align: center;
+    align-items: center;
     width: 90%;
     margin-left: 5%;
-    margin-right:5%;
+    margin-right: 5%;
+    justify-content: center;
 }
-
 
 .skill {
     margin: 2%;
+    margin-bottom: 2px;
     list-style-type: none;
+    
 }
 
 .skill a {
@@ -43,10 +46,11 @@
     width: 90%;
     margin-left: 5%;
     margin-right:5%;
+    
 }
 
 .profLinks div {
-    margin: 2%;
+    margin: 1%;
 }
 
 .profLinks a {

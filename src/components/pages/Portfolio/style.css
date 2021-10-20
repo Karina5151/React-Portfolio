@@ -1,5 +1,5 @@
-#root {
-    background-color: rgb(250, 249, 252);
+.resume {
+    justify-content: center;
 }
 
 .projects {
@@ -10,6 +10,7 @@
     width: 90%;
     margin-left: 5%;
     margin-right:5%;
+    justify-content: center;
 }
 
 .projects div {
