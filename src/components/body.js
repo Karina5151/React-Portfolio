@@ -29,12 +29,13 @@ export default function Body() {
 
     return (
         <>
-            <div>
-                <HeaderNav 
-                currentPage={currentPage} 
-                handlePageChange={handlePageChange} 
+            <div style={{ minHeight: "calc(100vh - 200px)" }}>
+                <HeaderNav
+                    currentPage={currentPage}
+                    handlePageChange={handlePageChange}
                 />
                 {renderPage()}
+
             </div>
         </>
     );

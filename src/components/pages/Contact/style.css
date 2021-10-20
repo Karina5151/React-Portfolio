@@ -1,25 +1,4 @@
-.contactContainer {
-    text-align: center;
-}
-
-.card-body {
-    width: 100px;
-    align-items: center;
-}
-
-.contactForm input {
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 500px;
-    font-size: 20px;
-}
-
-.message {
-    height: 100px;
-}
 
 
-.errorText {
-    color: gray
-}
+
+

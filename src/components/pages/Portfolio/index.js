@@ -6,19 +6,24 @@ import codeQuizImg from "../../../assets/images/code_quiz-screenshot.png";
 import workDaySchedImg from "../../../assets/images/work-day-scheduler_screenshot.png";
 import weatherDashImg from "../../../assets/images/weather-dashboard.png";
 import cocktailsImg from "../../../assets/images/landings_page_screenshot.png";
-import readMeImg from "../../../assets/images/README_screenshot.png";
+import readMeImg from "../../../assets/images/README_screenshot2.png";
 import teamProfImg from "../../../assets/images/web_app_html.png";
 import noteTakerImg from "../../../assets/images/note-page.png";
 import employeeTrackerImg from "../../../assets/images/employee-tracker_pic.png";
 import eCommerceImg from "../../../assets/images/e-commerce.png";
+import fitnessTrackImg from "../../../assets/images/fitnessScreenshot1.png"
 import eventOrgImg from "../../../assets/images/screenshot.jpg";
 import budgetImg from "../../../assets/images/budget-app.png";
-
+import reactPortfolioImg from "../../../assets/images/screenshotBioPage.png";
+import bookSearchImg from "../../../assets/images/bookScreenshot.png";
+import smileyRecruitImg from "../../../assets/images/SearchScreenshot.png";
 
 
 export default function Portfolio() {
     return (
-        <>
+        <div className="resume col-12-lg col-6-md col-3-sm text-center">
+            <h1>Coding Projects</h1>
+
             <section className="projects justify-content-center">
                 {/* Semantic Tags */}
                 <div>
@@ -88,7 +93,7 @@ export default function Portfolio() {
                     <div><img src={teamProfImg} width="270" height="235" alt="Team Profile Generator" /></div>
 
                     <p> <a href="https://karina5151.github.io/Team-Profile-Generator/" target="_blank" rel="noreferrer">Team Profile Generator Site</a></p>
-                   
+
                     <p><a href="https://github.com/Karina5151/README-Generator" target="_blank" rel="noreferrer">Team Profile Generator Repo</a></p>
                 </div>
 
@@ -97,7 +102,7 @@ export default function Portfolio() {
                     <div><img src={noteTakerImg} width="270" height="235" alt="Note Taker" /></div>
 
                     <p><a href="https://note-taker5151.herokuapp.com/" target="_blank" rel="noreferrer">Note Taker Site</a></p>
-                    
+
                     <p><a href="https://github.com/Karina5151/Note-Taker" target="_blank" rel="noreferrer">Note Taker Repo</a></p>
                 </div>
 
@@ -106,8 +111,8 @@ export default function Portfolio() {
                     <div><img src={employeeTrackerImg} width="270" height="235" alt="Employee Tracker" /></div>
 
                     <p>Command-line App - no site</p>
-                    
-                    <p><a href="https://github.com/Karina5151/Employee-Management-System" target="_blank" rel="noreferrer">Employee Tracker Repo</a></p>
+
+                    <p><a href="https://github.com/Karina5151/Employee-Management-System" target="_blank" rel="noreferrer">Employee Management System Repo</a></p>
                 </div>
 
                 {/* E-Commerce Back End */}
@@ -119,12 +124,21 @@ export default function Portfolio() {
                     <p><a href="https://github.com/Karina5151/E-Commerce-Back-End" target="_blank" rel="noreferrer">E-Commerce Back End Repo</a></p>
                 </div>
 
+                {/* Fitness Tracker */}
+                <div>
+                    <div><img src={fitnessTrackImg} width="270" height="235" alt="E-Commerce" /></div>
+
+                    <p><a href="https://fierce-hamlet-39609.herokuapp.com/" target="_blank" rel="noreferrer">Fitness Tracker Site</a></p>
+
+                    <p><a href="https://github.com/Karina5151/Fitness-Tracker" target="_blank" rel="noreferrer">Fitness Tracker Repo</a></p>
+                </div>
+
                 {/* Event Organizer */}
                 <div>
                     <div><img src={eventOrgImg} width="270" height="235" alt="Event Organizer" /></div>
 
                     <p><a href="https://gentle-reaches-60799.herokuapp.com/" target="_blank" rel="noreferrer">Event Organizer Site</a></p>
-                    
+
                     <p><a href="https://github.com/Karina5151/Event-Organizer" target="_blank" rel="noreferrer">Event Organizer Repo</a></p>
                 </div>
 
@@ -136,7 +150,34 @@ export default function Portfolio() {
 
                     <p><a href="https://github.com/Karina5151/Progressive-Budget" target="_blank" rel="noreferrer">Progressive Budget Repo</a></p>
                 </div>
+
+                {/* React Portfolio */}
+                <div>
+                    <div><img src={reactPortfolioImg} width="270" height="235" alt="Progressive Budget" /></div>
+
+                    <p><a href="https://karina5151.github.io/React-Portfolio/" target="_blank" rel="noreferrer">React Portfolio Site</a></p>
+
+                    <p><a href="https://github.com/Karina5151/React-Portfolio" target="_blank" rel="noreferrer">React Portfolio Repo</a></p>
+                </div>
+
+                {/* Book Search Engine */}
+                <div>
+                    <div><img src={bookSearchImg} width="270" height="235" alt="Progressive Budget" /></div>
+
+                    <p><a href="https://secure-springs-23383.herokuapp.com/" target="_blank" rel="noreferrer">Book Search Engine Site</a></p>
+
+                    <p><a href="https://github.com/Karina5151/Book-Search-Engine" target="_blank" rel="noreferrer">Book Search Engine Repo</a></p>
+                </div>
+
+                {/* Smiley Recruiter */}
+                <div>
+                    <div><img src={smileyRecruitImg} width="270" height="235" alt="Progressive Budget" /></div>
+
+                    <p><a href="https://safe-journey-56448.herokuapp.com/" target="_blank" rel="noreferrer">Smiley Recruiter Site</a></p>
+
+                    <p><a href="https://github.com/Karina5151/Smiley-Recruiter" target="_blank" rel="noreferrer">Smiley Recruiter Repo</a></p>
+                </div>
             </section>
-        </>
+        </div>
     );
 }

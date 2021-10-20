@@ -1,6 +1,10 @@
-/* #root {
-    background-color: rgb(250, 249, 252);
-} */
+/* Styling for Skill Icons */
+
+
+
+
+
+/* Styling for Links */
 
 .profLinks {
     display:flex;
@@ -14,7 +18,6 @@
 
 .profLinks div {
     margin: 2%;
-    /* margin-bottom: 5%; */
 }
 
 .profLinks a {
@@ -29,9 +32,7 @@
 
 .profLinks a:hover {
     color: rgb(67, 26, 163);
-    filter: saturate(150%);
-    
-    
+    filter: saturate(150%);  
 }
 
 .profLinks img {
