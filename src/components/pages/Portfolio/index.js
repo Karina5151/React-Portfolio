@@ -113,9 +113,9 @@ export default function Portfolio() {
                 <div>
                     <div><img src={teamProfImg} width="270" height="235" alt="Team Profile Generator" /></div>
 
-                    <p> <a href="https://karina5151.github.io/Team-Profile-Generator/" target="_blank" rel="noreferrer">Team Profile Generator Site</a></p>
+                    <p> <a href="https://karina5151.github.io/Team-Profile-Generator/dist/" target="_blank" rel="noreferrer">Team Profile Generator Site</a></p>
 
-                    <p><a href="https://github.com/Karina5151/README-Generator" target="_blank" rel="noreferrer">Team Profile Generator Repo</a></p>
+                    <p><a href="https://github.com/Karina5151/Team-Profile-Generator" target="_blank" rel="noreferrer">Team Profile Generator Repo</a></p>
                 </div>
 
                 {/* ReadMe Generator */}
