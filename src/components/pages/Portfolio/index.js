@@ -14,7 +14,7 @@ import eCommerceImg from "../../../assets/images/e-commerce.png";
 import fitnessTrackImg from "../../../assets/images/fitnessScreenshot1.png"
 import eventOrgImg from "../../../assets/images/screenshot.jpg";
 import budgetImg from "../../../assets/images/budget-app.png";
-import reactPortfolioImg from "../../../assets/images/screenshotBioPage.png";
+import reactPortfolioImg from "../../../assets/images/reactPorfolio.png";
 import bookSearchImg from "../../../assets/images/bookScreenshot.png";
 import smileyRecruitImg from "../../../assets/images/SearchScreenshot.png";
 
